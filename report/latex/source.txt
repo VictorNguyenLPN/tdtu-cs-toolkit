@@ -1,0 +1,5 @@
+Source Latex gốc là Template Luận văn Thạc sĩ của anh Huynh Nhut Truong: https://www.overleaf.com/latex/templates/master-thesis-templete-for-tdtu-version-vietnamese/phrsbqgqvqch
+
+Tuy nhiên, mình sẽ chỉnh sửa lại để phù hợp Báo cáo đại học, đặc biệt cho ngành CNTT (Môn học, DACNTT, KTCN, ...), lưu tại TDTU-CS-TOOLKIT/report/latex
+
+Hình thức trình bày được quy định tại: https://drive.google.com/drive/folders/18sS8JJNS0Vd_n300jznY0YKtpg8KVAvW

@@ -1,0 +1,62 @@
+\usepackage[utf8]{vietnam}
+\usepackage[left=3.5cm, right=2cm, top=3.5cm, bottom=3cm, headheight=16pt]{geometry}
+\usepackage{graphicx,float}
+\usepackage{mathtools}
+\usepackage{amssymb,amsmath}
+\usepackage{mathptmx}
+\usepackage[varvw]{newtxmath}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{titlesec,titletoc}
+\usepackage{titlesec}
+\titleformat{\section}[hang]{\bfseries\Large\color{black}}{\thesection}{1.5ex}{}
+
+\usepackage{titletoc}
+\titlecontents{chapter}[0pt]{\bfseries\color{black}}{\MakeUppercase\chaptername\ \thecontentslabel\quad}{}{\normalfont\dotfill\bfseries\contentspage}
+
+\titlecontents{section}[1.5ex]{\color{black}}{ \thecontentslabel\quad}{}{\dotfill\contentspage}
+
+\titlecontents{subsection}[1.5ex]{\color{black}}{ \thecontentslabel\quad}{}{\dotfill\contentspage}
+
+\titlecontents{figure}[0pt]{\color{black}}{\figurename\ \thecontentslabel:\quad}{}{\dotfill\contentspage}
+\titlecontents{table}[0pt]{\color{black}}{\tablename\ \thecontentslabel:\quad}{}{\dotfill\contentspage}
+
+\usepackage{enumitem}
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+
+\usepackage[fontsize = 13]{scrextend}
+
+\usepackage[round]{natbib}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=red,
+	urlcolor=black
+}
+
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{indentfirst}
+\setlength{\parindent}{1cm}
+\allowdisplaybreaks
+
+\usepackage[labelfont=bf]{caption}
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyhead[C]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}

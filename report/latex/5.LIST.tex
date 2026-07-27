@@ -1,0 +1,39 @@
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\tableofcontents
+\newpage
+
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\listoffigures\label{listfigures}
+\addcontentsline{toc}{chapter}{\listfigurename}
+
+\renewcommand{\listtablename}{LIST OF TABLES}
+\listoftables\label{listtables}
+\addcontentsline{toc}{chapter}{\listtablename}
+
+\chapter*{LIST OF ABBREVIATIONS}
+\addcontentsline{toc}{chapter}{ABBREVIATIONS}
+\begin{abbrv}
+	\item[LSTM] Long Short-Term Memory
+	\item[CNN] Convolutional Neural Network
+	\item[RNN] Recurrent Neural Network
+	\item[GRU] Gated Recurrent Unit
+	\item[NLP] Natural Language Processing
+	\item[NLU] Natural Language Understanding
+	\item[NLG] Natural Language Generation
+	\item[HMM] Hidden Markov Model
+	\item[CRF] Conditional Random Field
+	\item[Viterbi] Viterbi Algorithm
+	\item[BLEU] Bilingual Evaluation Understudy
+	\item[ROUGE] Recall-Oriented Understudy for Gisting Evaluation
+	\item[METEOR] Metric for Evaluation of Translation with Explicit Ordering
+	\item[CIDEr] Consensus-based Image Description Evaluation
+	\item[SPICE] Semantic Propositional Image Caption Evaluation
+	\item[DCG] Discounted Cumulative Gain
+	\item[NDCG] Normalized Discounted Cumulative Gain
+	\item[MRR] Mean Reciprocal Rank
+\end{abbrv}
+
+\newpage
+\pagenumbering{arabic}
+\titleformat{\chapter}[display]{\vspace*{-10ex}\bfseries\raggedright\LARGE\bfseries\color{black}}{\Large Chapter \thechapter}{0ex}{}
+\pagestyle{fancy}
